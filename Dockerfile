@@ -1,0 +1,10 @@
+FROM node:16.3.0-alpine as node
+WORKDIR /code
+
+COPY package.json /code/package.json
+COPY package-lock.json /code/package-lock.json
+RUN npm install
+COPY . .
+
+EXPOSE 5173
+CMD npm run dev

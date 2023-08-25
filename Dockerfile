@@ -1,6 +1,4 @@
 FROM node:16.3.0-alpine as node
-RUN apk add --no-cache libc6-compat
-
 WORKDIR /code
 
 COPY package.json /code/package.json

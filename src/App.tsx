@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <img src="/docker.png" className="logo" alt="Vite logo" />
+        <img src="/docker.png" className="logo" alt="Docker logo" />
       </div>
       <h1>N'ayez plus peur de Docker !</h1>
       <div className="card">
